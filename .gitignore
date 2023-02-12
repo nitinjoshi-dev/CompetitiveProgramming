@@ -1,0 +1,9 @@
+/CP.iml
+out/*
+out
+/.idea/.gitignore
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea
+CompetitiveProgramming.iml
