@@ -1,5 +1,6 @@
 package com.leetcode;
 
+//https://leetcode.com/problems/maximum-subarray/description/
 public class MaximumSubArray {
 
     public int maxSubArray2(int[] nums) {
