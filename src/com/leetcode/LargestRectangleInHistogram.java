@@ -74,10 +74,10 @@ public class LargestRectangleInHistogram {
 
     public static void main(String[] args) {
         LargestRectangleInHistogram obj = new LargestRectangleInHistogram();
-//        System.out.println(obj.largestRectangleArea(new int[]{2, 1, 5, 6, 2, 3}));
-//        System.out.println(obj.largestRectangleArea(new int[]{2, 2, 5, 6, 2, 3}));
-//        System.out.println(obj.largestRectangleArea(new int[]{2, 4}));
+        System.out.println(obj.largestRectangleArea(new int[]{2, 1, 5, 6, 2, 3}));
+        System.out.println(obj.largestRectangleArea(new int[]{2, 2, 5, 6, 2, 3}));
+        System.out.println(obj.largestRectangleArea(new int[]{2, 4}));
         System.out.println(obj.largestRectangleArea(new int[]{2, 2}));
-//        System.out.println(obj.largestRectangleArea(new int[]{100, 1, 2, 1}));
+        System.out.println(obj.largestRectangleArea(new int[]{100, 1, 2, 1}));
     }
 }
