@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 //https://leetcode.com/problems/largest-rectangle-in-histogram/
-//#Monotonic stack
+//#MonotonicStack
 
 /**
  * For each height, add it to the stack of height if the height is bigger than the previous height

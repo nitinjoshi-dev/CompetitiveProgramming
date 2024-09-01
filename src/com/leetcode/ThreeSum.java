@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 //https://leetcode.com/problems/3sum/description/
+//#TwoPointer, #Sorting
 public class ThreeSum {
 
     public List<List<Integer>> threeSum(int[] nums) {

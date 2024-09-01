@@ -1,17 +1,18 @@
 package com.leetcode;
 
 //https://leetcode.com/problems/container-with-most-water/
+//#TwoPointer
 public class ContainerWithMostWater {
-    public int maxArea(int[] height) {
+    public int maxArea(int[] heights) {
         int maxArea = 0;
-        int l = 0, r = height.length - 1;
+        int l = 0, r = heights.length - 1;
         while (l < r) {
-            if (height[l] < height[r]) {
-                maxArea = Math.max(maxArea, (r - l) * height[l]);
+            if (heights[l] < heights[r]) {
+                maxArea = Math.max(maxArea, (r - l) * heights[l]);
                 l++;
             }
             else {
-                maxArea = Math.max(maxArea, (r - l) * height[r]);
+                maxArea = Math.max(maxArea, (r - l) * heights[r]);
                 r--;
             }
         }

@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 //https://leetcode.com/problems/daily-temperatures/description/
-//#Monotonic stack
+//#MonotonicStack
 public class DailyTemperatures {
     public int[] dailyTemperatures(int[] temperatures) {
         int[] answer = new int[temperatures.length];
