@@ -3,6 +3,7 @@ package com.leetcode;
 import java.util.Stack;
 
 //https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+//#SlidingWindow, #MonotonicStack
 public class BestTimeToBuyAndSellStock {
 
     public int maxProfit(int[] prices) {
